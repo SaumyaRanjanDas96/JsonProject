@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<suite name="EmployeeRestApiSuite">
+<listeners>
+
+<listener class-name="com.employeeapi.utilities.Listeners"/>
+</listeners>
+<test threadcount="5" name="EmployeesRestApiTest">
+
+
+<classes>
+
+<class name="com.employeeapi.testcases.TC_001_GetAllEmployees"/>
+<class name="com.employeeapi.testcases.TC_002_GetSingleEmployeeRequest"/>
+<class name="com.employeeapi.testcases.TC_003_PostRequest"/>
+<class name="com.employeeapi.testcases.TC_004_PutRequest"/>
+<class name="com.employeeapi.testcases.TC_005_DeleteRequest"/>
+
+
+</classes>
+</test><!-- Test -->
+</suite><!-- Suite -->
